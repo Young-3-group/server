@@ -11,7 +11,7 @@ const mongoose = require('mongoose');
 require('dotenv').config()
 
 
-mongoose.connect('mongodb://localhost/database_name', { useNewUrlParser: true });
+mongoose.connect('mongodb://localhost/hacktify', { useNewUrlParser: true });
 
 
 var db = mongoose.connection;
